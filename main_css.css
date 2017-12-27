@@ -1,0 +1,30 @@
+.logo_style{
+	padding-left: 25px;
+	font-family: Georgia , Serif;
+	font-style: italic;
+	font-size : 40px;
+}
+
+.game_name{
+	font-family: Georgia , Serif;
+	font-style: italic;
+	font-size: 40px;
+	position: relative ;
+	right : 0%;
+	top: 6px;
+	color :#ffccff;
+}
+
+.new_game_link {
+	font-family: Georgia , Serif;
+	font-style: italic;
+	font-size : 40px;
+	color : white;
+	padding-right: 25px;
+}
+
+a:hover{
+	color:white;
+	//text-decoration: none;
+}
+
