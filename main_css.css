@@ -10,7 +10,7 @@
 	font-style: italic;
 	font-size: 40px;
 	position: relative ;
-	right : 0%;
+	right : 5%;
 	top: 6px;
 	color :#ffccff;
 }
@@ -28,3 +28,25 @@ a:hover{
 	//text-decoration: none;
 }
 
+
+.grid-container{
+	height : 400px;
+	width : 400px;
+	margin : 0 auto;
+	margin-top : 60px;
+	display:grid;
+	grid-template-rows: repeat(3,1fr [row-start]);
+	grid-template-columns: repeat(3,1fr [col-start]);
+	grid-gap : 10px 10px;
+
+}
+
+.btn-box{
+	cursor:pointer;
+}
+
+
+.btn-box:hover{
+	box-shadow: 2px 2px 2px 2px #ffb3ff;
+	background-color: #ffccff;
+}
