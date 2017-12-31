@@ -1,26 +1,27 @@
 .logo_style{
+	//display: none;
 	padding-left: 25px;
 	font-family: Georgia , Serif;
-	font-style: italic;
-	font-size : 40px;
+	//font-style: italic;
+	font-size : 25px;
 }
 
 .game_name{
 	font-family: Georgia , Serif;
-	font-style: italic;
-	font-size: 40px;
+	//font-style: italic;
+	font-size: 25px;
 	position: relative ;
-	right : 5%;
+	right : 3%;
 	top: 6px;
 	color :#ffccff;
 }
 
 .new_game_link {
 	font-family: Georgia , Serif;
-	font-style: italic;
-	font-size : 40px;
+	//font-style: italic;
+	font-size : 25px;
 	color : white;
-	padding-right: 25px;
+	padding-right: 60px;
 }
 
 a:hover{
@@ -29,11 +30,19 @@ a:hover{
 }
 
 
+.score-card{
+	position :relative;
+	height :250px;
+	width : 250px;
+	margin : 0 auto;
+	margin-top: 150px;
+}
+
 .grid-container{
 	height : 400px;
 	width : 400px;
 	margin : 0 auto;
-	margin-top : 60px;
+	margin-top : 80px;
 	display:grid;
 	grid-template-rows: repeat(3,1fr [row-start]);
 	grid-template-columns: repeat(3,1fr [col-start]);
@@ -46,7 +55,37 @@ a:hover{
 }
 
 
-.btn-box:hover{
-	box-shadow: 2px 2px 2px 2px #ffb3ff;
-	background-color: #ffccff;
+.btn-box-dead-red{
+	background-color: #ffe6ff;
+}
+
+.btn-box-dead-blue{
+	background-color: #d7eff2;
+}
+
+.btn-box-active-red:hover{
+	background-color: #ffe6ff;
+	box-shadow: 2px 2px 2px 2px #ff80ff;
+}
+
+.btn-box-active-blue:hover{
+	background-color: #d7eff2;
+	box-shadow: 2px 2px 2px 2px #57bdca;
+}
+
+
+.card-red{
+	background-color : #ffe6ff;
+	color : #ff80ff;
+}
+
+.card-blue{
+	background-color: #d7eff2;
+	color : #57bdca;
+}
+
+.card-common{
+
+	text-align:center;
+
 }
